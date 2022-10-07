@@ -1,0 +1,354 @@
+* {
+  margin: 0;
+  font-family: Montserrat;
+  font-weight: 800;
+}
+
+.container {
+  width: 100%;
+  background-image: url(./images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110vh;
+}
+@media (max-width: 480px) {
+  .container {
+    height: auto;
+  }
+}
+
+.medicine h1 {
+  color: #252B42;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 50px;
+  font-weight: 700;
+}
+@media (max-width: 480px) {
+  .medicine h1 {
+    font-size: 40px;
+  }
+}
+.medicine p {
+  color: #737373;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+}
+@media (max-width: 480px) {
+  .medicine p {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+.medicine .emergency {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+@media (max-width: 480px) {
+  .medicine .emergency {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.medicine .emergency .emerg {
+  background-color: #8EC2F2;
+  width: 320px;
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  border-radius: 3px;
+  gap: 30px;
+}
+.medicine .emergency .emerg h4 {
+  padding-top: 40px;
+}
+.medicine .emergency .emerg img {
+  padding-top: 10px;
+  width: 80px;
+  height: 80px;
+}
+.medicine .emergency .emergg {
+  background-color: #FFFFFF;
+  width: 318px;
+  height: 290px;
+  border-radius: 6px;
+  text-align: start;
+  border: #23A6F0 1px solid;
+  color: #737373;
+}
+.medicine .emergency .emergg .onee p {
+  color: #23A6F0;
+}
+.medicine .emergency .emergg .onee p:hover {
+  color: #252B42;
+}
+
+.navbar {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.navbar .navbar-left h1 {
+  color: white;
+  font-size: 40px;
+}
+.navbar .navbar-left h1:hover {
+  color: #23A6F0;
+}
+.navbar .navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding-top: 13px;
+}
+@media (max-width: 480px) {
+  .navbar .navbar-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.navbar .navbar-right li {
+  list-style: none;
+  display: inline;
+  padding: 10px;
+  font-size: 25px;
+}
+@media (max-width: 480px) {
+  .navbar .navbar-right li {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+.navbar .navbar-right li:hover {
+  color: #23A6F0;
+}
+.navbar .am {
+  width: 170px;
+  height: 46px;
+  background-color: #23A6F0;
+  text-align: center;
+  font-size: 16px;
+}
+.navbar .am:hover {
+  background-color: white;
+  color: #23A6F0;
+}
+.navbar p {
+  padding-top: 12px;
+}
+.navbar .navbar-le {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 120px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+@media (max-width: 480px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.content .content-left {
+  padding-top: 150px;
+}
+.content .content-left h1 {
+  color: white;
+  font-weight: 800;
+  font-size: 80px;
+  padding-bottom: 30px;
+}
+@media (max-width: 480px) {
+  .content .content-left h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+}
+.content .content-left p {
+  color: white;
+  font-weight: 500;
+  font-size: 25px;
+}
+@media (max-width: 480px) {
+  .content .content-left p {
+    font-size: 25px;
+    text-align: center;
+  }
+}
+.content .content-left .get {
+  display: flex;
+  gap: 50px;
+  padding-top: 30px;
+}
+@media (max-width: 480px) {
+  .content .content-left .get {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+.content .content-left .get .get-one {
+  background-color: #23A6F0;
+  color: white;
+  width: 170px;
+  height: 46px;
+  border-radius: 36px;
+  text-align: center;
+}
+.content .content-left .get .get-one:hover {
+  background-color: white;
+}
+.content .content-left .get .get-one p {
+  padding-top: 10px;
+  font-size: 20px;
+}
+.content .content-left .get .get-one p:hover {
+  color: #23A6F0;
+}
+.content .content-left .get .get-two {
+  color: white;
+  width: 160px;
+  height: 46px;
+  border-radius: 36px;
+  border: #FFFFFF 1px solid;
+  text-align: center;
+}
+.content .content-left .get .get-two p {
+  padding-top: 10px;
+  font-size: 18px;
+}
+.content .content-left .get .get-two p:hover {
+  color: #23A6F0;
+}
+.content .content-right {
+  background-color: #FFFFFF;
+  width: 328px;
+  height: 530px;
+  border-radius: 10px;
+}
+.content .content-right .con {
+  padding-left: 30px;
+}
+.content .content-right h2 {
+  text-align: center;
+  color: #252B42;
+  padding-top: 20px;
+}
+.content .content-right h3 {
+  color: #252B42;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.content .content-right input {
+  text-align: center;
+  width: 240px;
+  height: 50px;
+  border-radius: 5px;
+}
+.content .content-right select {
+  text-align: center;
+  width: 250px;
+  height: 55px;
+  border-radius: 5px;
+  color: #737373;
+}
+.content .content-right .div {
+  padding-top: 20px;
+}
+.content .content-right .div .div-one {
+  background-color: #23A6F0;
+  color: white;
+  width: 249px;
+  height: 48px;
+  text-align: center;
+}
+.content .content-right .div .div-one:hover {
+  background-color: white;
+}
+.content .content-right .div .div-one p {
+  padding-top: 14px;
+}
+.content .content-right .div .div-one p:hover {
+  color: #23A6F0;
+}
+
+.ohno .finish {
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 250px;
+  padding-top: 60px;
+}
+@media (max-width: 480px) {
+  .ohno .finish {
+    height: auto;
+  }
+}
+.ohno .finish .end {
+  display: flex;
+  justify-content: center;
+  gap: 130px;
+}
+@media (max-width: 480px) {
+  .ohno .finish .end {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin: 10px;
+    gap: 20px;
+  }
+}
+.ohno .finish .end1 {
+  line-height: 30px;
+  padding-top: 50px;
+}
+.ohno .finish .end1 h3 {
+  color: #252B42;
+  font-size: 28px;
+}
+.ohno .finish .end1 h3:hover {
+  color: #23A6F0;
+}
+.ohno .finish .end1 a {
+  color: #23A6F0;
+  font-size: 25px;
+  margin: 10px;
+}
+.ohno .finish .end1 p {
+  color: #737373;
+}
+
+.made {
+  background-color: #FAFAFA;
+  width: 100%;
+  height: 70px;
+}
+.made p {
+  color: #737373;
+  text-align: center;
+  padding-top: 30px;
+}
+@media (max-width: 480px) {
+  .made p {
+    font-size: 15px;
+    text-align: center;
+  }
+}/*# sourceMappingURL=hospital.css.map */
